@@ -21,11 +21,11 @@ const skills = {
     ],
   },
   "Web Development": {
-    Languages: ["JavaScript", "TypeScript", "HTML", "CSS"],
+    Languages: ["JavaScript", "TypeScript", "Node JS", "Ruby", "HTML", "CSS"],
     "Frontend Frameworks": ["React JS", "Bootstrap", "Swiper JS"],
-    "Backend Frameworks": ["Node JS", "Express JS"],
+    "Backend Frameworks": ["Express JS", "Ruby on Rails"],
     "Database Technologies": ["SQL", "MongoDB"],
-    "Other Tools & Technologies": ["Git", "GitHub", "Ruby on Rails", "Python"],
+    "Other Tools & Technologies": ["Git", "GitHub", "RESTful APIs", "Postman"],
   },
 };
 
