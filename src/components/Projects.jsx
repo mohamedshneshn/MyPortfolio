@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "../assets/styles/Projects.css";
@@ -44,30 +44,58 @@ const projects = [
     live: "https://akidev80-dev-ed.develop.my.site.com/s",
     image: carHub,
   },
-  // Additional projects here...
+  {
+    title: "Shopper Website",
+    year: "2022",
+    summary: "An e-commerce platform offering online shopping experience.",
+    features: [
+      "View product details",
+      "Add products to the cart",
+      "Manage cart items",
+    ],
+    technologies: ["HTML", "CSS", "JS", "React", "NodeJS", "MongoDB"],
+    github: "https://github.com/mohamedshneshn/shopper-v1",
+    live: "https://github.com/mohamedshneshn/shopper-v1",
+    image: shopper,
+  },
+  {
+    title: "Simon Game",
+    year: "2021",
+    summary: "A web application that allows users to play the Simon game.",
+    features: [
+      "Follow the color pattern",
+      "Test memory by repeating sequences",
+    ],
+    technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
+    github: "https://github.com/mohamedshneshn/Simon-Game",
+    live: "https://mohamedshneshn.github.io/SimonGame/",
+    image: simonGame,
+  },
+  {
+    title: "Expenses-Tracker App",
+    year: "2020",
+    summary: "A web application for tracking expenses and incomes.",
+    features: [
+      "Add, edit, delete transactions",
+      "Visualize expenses in charts",
+    ],
+    technologies: ["HTML5", "CSS", "React", "MongoDB", "Express JS"],
+    github: "https://github.com/mohamedshneshn/expense-tracker-client",
+    live: "https://expence-tracker-mohamed.netlify.app/login",
+    image: expensesTracker,
+  },
 ];
 
 const Projects = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
-
   return (
     <section id="projects" className="container-dim ">
       <div className="container">
         <Header title="Projects" icon="🚀" />
         <div className="row">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className="col-lg-6 col-md-6 col-12 mb-4"
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
-              onTouchStart={() => setHoveredIndex(index)}
-              onTouchEnd={() => setHoveredIndex(null)}
-            >
+            <div key={index} className="col-lg-6 col-md-6 col-12 mb-4">
               <motion.div
-                className={`bg-white rounded-2xl shadow-lg overflow-hidden ${
-                  hoveredIndex === index ? "hovered" : ""
-                }`}
+                className="bg-white rounded-2xl shadow-lg overflow-hidden"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -82,9 +110,9 @@ const Projects = () => {
                   />
                   {/* Icons Overlay */}
                   <motion.div
-                    className={`absolute inset-0 flex items-center justify-center gap-4 bg-black ${
-                      hoveredIndex === index ? "opacity-50" : "opacity-0"
-                    } transition-all duration-300`}
+                    className="absolute inset-0 flex items-center image-overlay justify-center gap-4 bg-black transition-all duration-300"
+                    initial={{ opacity: 0 }}
+                    whileHover={{ opacity: 0.5 }}
                   >
                     <motion.a
                       href={project.github}
