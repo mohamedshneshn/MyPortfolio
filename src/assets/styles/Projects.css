@@ -1,0 +1,64 @@
+/* Projects.css */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-opacity-0 {
+  background-opacity: 0;
+}
+
+.hover\:bg-opacity-50:hover {
+  background-opacity: 0.5;
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+.media-pro {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.projects-section {
+  padding-top: 90px !important;
+}

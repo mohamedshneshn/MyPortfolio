@@ -1,0 +1,39 @@
+/* Styling for the Navbar links */
+.navbar-nav .nav-link {
+  color: #fff; /* Default color for all links */
+  font-weight: bold; /* Make all links bold */
+}
+
+/* Always highlight the Home link with the desired color */
+.navbar-nav .nav-link.home-link {
+  color: rgb(246, 199, 34); /* Home link color */
+}
+
+/* Hover effect for other links */
+.navbar-nav .nav-link:hover {
+  color: rgb(246, 199, 34); /* Hover color */
+}
+
+.navbar-brand {
+  font-family: "Cursive", sans-serif; /* Choose a stylish font */
+  font-size: 30px; /* Larger text size */
+  font-weight: bold; /* Make it bold */
+  color: rgb(246, 199, 34); /* Apply a distinct color like the Home link */
+  text-transform: uppercase; /* Make the text uppercase */
+  letter-spacing: 2px; /* Add some space between the letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Optional: add a subtle shadow */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect */
+.navbar-brand:hover {
+  color: rgb(255, 255, 255); /* Change color on hover */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Make the shadow more prominent */
+}
+
+.navbar-custom {
+  background-color: #1f2a44 !important; /* Dark primary color */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures it stays above other elements */
+}

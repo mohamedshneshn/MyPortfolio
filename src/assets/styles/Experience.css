@@ -1,0 +1,89 @@
+/* General Styling for Experience Section */
+.experience-section {
+  background-color: #f4f7fb;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.experience-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 550px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.experience-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header of Each Experience */
+.experience-header {
+  margin-bottom: 20px;
+}
+
+.role {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.company {
+  font-size: 1.2rem;
+  color: #4b5563;
+}
+
+.duration {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-top: 5px;
+}
+
+/* List of Responsibilities */
+.experience-details {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience-item {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.experience-item::before {
+  content: "✓";
+  color: #10b981;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .experience-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-card {
+    max-width: 100%;
+    width: 90%;
+  }
+}

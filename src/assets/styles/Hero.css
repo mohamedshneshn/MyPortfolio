@@ -1,0 +1,113 @@
+.hero .btn:hover {
+  background-color: rgb(246, 199, 34); /* Change to your desired hover color */
+  border-color: rgb(246, 199, 34);
+  transition: all 0.3s ease;
+}
+
+.hero {
+  background-color: #1f2a44 !important;
+  color: #fff;
+  padding: 250px 0 150px 0 !important;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 150px 0 100px 0 !important;
+  }
+}
+
+.hero img {
+  max-width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  position: relative;
+  height: 1.5rem; /* Adjust to match the text height */
+}
+
+.animated-text {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  border-right: 3px solid rgba(255, 255, 255, 0.75);
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.wave {
+  display: inline-block;
+  animation: wave-animation 1.5s infinite ease-in-out;
+  transform-origin: 70% 70%; /* Adjust the pivot point */
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hero-lead,
+.hero-lead3 {
+  font-size: 1.5rem;
+  margin-bottom: 0 !important;
+}
+
+.hero-lead3:hover {
+  cursor: pointer;
+  color: rgb(246, 199, 34);
+}
+
+.social-container {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #007bff;
+}

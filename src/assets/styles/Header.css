@@ -1,0 +1,29 @@
+.main-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+/* Stylish Bottom Border */
+.main-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  margin: 10px auto 0;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+
+.icon {
+  font-size: 50px;
+
+  margin-right: 10px;
+}
