@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.91c9af36.css",
-    "main.js": "/MyPortfolio/static/js/main.2847f337.js",
+    "main.css": "/MyPortfolio/static/css/main.ee833fdf.css",
+    "main.js": "/MyPortfolio/static/js/main.09a94793.js",
     "static/media/shopper.jpg": "/MyPortfolio/static/media/shopper.45040e1011c4f85fe975.jpg",
     "static/media/net-movie.jpg": "/MyPortfolio/static/media/net-movie.4bfe6386edf8d5d0bab0.jpg",
     "static/media/Mohamed_Salesforce_Developer__Resume.pdf": "/MyPortfolio/static/media/Mohamed_Salesforce_Developer__Resume.c96bd6b759c9f22e144e.pdf",
@@ -12,11 +12,11 @@
     "static/media/bootstrap-icons.woff2?": "/MyPortfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/simon-game.jpg": "/MyPortfolio/static/media/simon-game.d843f9ae22b5c99b1b26.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.91c9af36.css.map": "/MyPortfolio/static/css/main.91c9af36.css.map",
-    "main.2847f337.js.map": "/MyPortfolio/static/js/main.2847f337.js.map"
+    "main.ee833fdf.css.map": "/MyPortfolio/static/css/main.ee833fdf.css.map",
+    "main.09a94793.js.map": "/MyPortfolio/static/js/main.09a94793.js.map"
   },
   "entrypoints": [
-    "static/css/main.91c9af36.css",
-    "static/js/main.2847f337.js"
+    "static/css/main.ee833fdf.css",
+    "static/js/main.09a94793.js"
   ]
 }
