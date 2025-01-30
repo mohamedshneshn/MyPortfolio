@@ -67,7 +67,7 @@ const projects = [
       "Test memory by repeating sequences",
     ],
     technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
-    github: "https://github.com/mohamedshneshn/Simon-Game",
+    github: "https://github.com/mohamedshneshn/SimonGame",
     live: "https://mohamedshneshn.github.io/SimonGame/",
     image: simonGame,
   },
