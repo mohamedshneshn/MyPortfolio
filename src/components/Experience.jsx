@@ -40,7 +40,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="experience-section py-5">
+    <section id="experience" className="experience-section container-dim ">
       <div className="container">
         <Header title="Experience" icon="👨‍💻" />
         <div className="experience-list">

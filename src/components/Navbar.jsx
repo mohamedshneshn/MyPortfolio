@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top px-4">
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-custom p-3">
       <div className="container ">
-        <Link className="navbar-brand" to="/">
+        <a className="navbar-brand" href="#hero">
           MS
-        </Link>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,9 +23,9 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item pe-3">
-              <Link className="nav-link home-link" to="/">
+              <a className="nav-link" href="#hero">
                 Home
-              </Link>
+              </a>
             </li>
             <li className="nav-item pe-3">
               <a className="nav-link" href="#about">
@@ -35,6 +35,16 @@ const Navbar = () => {
             <li className="nav-item pe-3 ">
               <a className="nav-link" href="#projects">
                 Projects
+              </a>
+            </li>
+            <li className="nav-item pe-3 ">
+              <a className="nav-link" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item pe-3 ">
+              <a className="nav-link" href="#experience">
+                Experience
               </a>
             </li>
             <li className="nav-item ">

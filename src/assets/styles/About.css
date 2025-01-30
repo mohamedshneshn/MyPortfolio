@@ -1,6 +1,5 @@
 .about-section {
   animation: fadeInUp 2s ease-in-out;
-  padding-top: 90px !important;
 }
 
 @keyframes fadeInUp {

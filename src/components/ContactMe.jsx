@@ -32,7 +32,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="contact-form p-5 my-5 bg-white rounded-lg shadow-md max-w-md mx-auto">
+    <div className="contact-form container-dim my-5 bg-white rounded-lg shadow-md max-w-md mx-auto">
       <Header title="Contact Me" icon="💬" />
       <form onSubmit={handleSubmit}>
         <div className="mb-4">

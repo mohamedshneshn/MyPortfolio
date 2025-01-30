@@ -45,8 +45,11 @@ const Hero = () => {
       "mailto:eng.mohamed.shneshn@gmail.com?subject=Let's Get in Touch";
   };
   return (
-    <section className="hero bg-primary text-white text-center py-5 px-4">
-      <div className="container px-5">
+    <section
+      className="hero bg-primary text-white text-center container-dim"
+      id="hero"
+    >
+      <div className="container">
         <div className="row align-items-center">
           {/* Left side: Photo */}
           <div className="col-lg-6 text-center text-lg-start justify-content-center align-items-center d-flex">
@@ -59,81 +62,83 @@ const Hero = () => {
           </div>
 
           {/* Right side: Text and Download Button */}
-          <div className="col-lg-6 position-relative d-flex flex-column align-items-start gap-3  mt-lg-0 mt-5">
-            <h1 className="display-4">
-              Hi, I'm Mohamed <span className="wave">👋</span>
-            </h1>
-            <div className="text-wrapper">
-              <p className="animated-text">
-                {text}
-                <span className="cursor">|</span>
-              </p>
-            </div>
-            <p className="hero-lead mt-3">
-              <span class="me-2">☕</span> fueled by coffee
-            </p>
-            <p className="hero-lead">
-              <span class="me-2">🌎</span> based in CA, US
-            </p>
-            {/* my phone */}
-            <p className="hero-lead">
-              <span class="me-2">📞</span> +1 (424) 309-2850
-            </p>
-            <p className="hero-lead3" onClick={handleContactClick}>
-              <span class="me-2">📧</span> let's get in touch!
-            </p>
-            <div className="social-container d-flex justify-content-center ">
-              <div className="social-icons d-flex gap-3">
-                <a
-                  href="https://www.linkedin.com/in/mohamed-shneshn/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="social-icon"
-                >
-                  <i className="bi bi-linkedin"></i>
-                </a>
-                <a
-                  href="https://github.com/mohamedshn"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="social-icon"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
-                <a
-                  href="https://twitter.com/mohamedshn_"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="social-icon"
-                >
-                  <i className="bi bi-twitter"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com/mohamedshn_/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="social-icon"
-                >
-                  <i className="bi bi-instagram"></i>
-                </a>
-                <a
-                  href="https://www.facebook.com/mohamed.shneshn"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="social-icon"
-                >
-                  <i className="bi bi-facebook"></i>
-                </a>
+          <div className="col-lg-6 position-relative   mt-lg-0 mt-5 hero-content">
+            <div className="d-flex flex-column align-items-start gap-3">
+              <h1 className="display-4">
+                Hi, I'm Mohamed <span className="wave">👋</span>
+              </h1>
+              <div className="text-wrapper">
+                <p className="animated-text">
+                  {text}
+                  <span className="cursor">|</span>
+                </p>
               </div>
-            </div>
+              <p className="hero-lead mt-3">
+                <span class="me-2">☕</span> fueled by coffee
+              </p>
+              <p className="hero-lead">
+                <span class="me-2">🌎</span> based in CA, US
+              </p>
+              {/* my phone */}
+              <p className="hero-lead">
+                <span class="me-2">📞</span> +1 (424) 309-2850
+              </p>
+              <p className="hero-lead3" onClick={handleContactClick}>
+                <span class="me-2">📧</span> let's get in touch!
+              </p>
+              <div className="social-container d-flex justify-content-center ">
+                <div className="social-icons d-flex gap-3">
+                  <a
+                    href="https://www.linkedin.com/in/mohamed-shneshn-a9188094/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon"
+                  >
+                    <i className="bi bi-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://github.com/mohamedshneshn"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon"
+                  >
+                    <i className="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://x.com/?lang=en"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon"
+                  >
+                    <i className="bi bi-twitter"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon"
+                  >
+                    <i className="bi bi-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100032065122905"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-icon"
+                  >
+                    <i className="bi bi-facebook"></i>
+                  </a>
+                </div>
+              </div>
 
-            <a
-              href={resumeFile}
-              download="Mohamed_Shneshn_Resume.pdf"
-              className="btn btn-outline-light btn-lg mt-5"
-            >
-              Download Resume
-            </a>
+              <a
+                href={resumeFile}
+                download="Mohamed_Shneshn_Resume.pdf"
+                className="btn btn-outline-light btn-lg mt-2"
+              >
+                Download Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

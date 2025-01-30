@@ -88,7 +88,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-5 px-4 projects-section">
+    <section id="projects" className="container-dim ">
       <div className="container">
         <Header title="Projects" icon="🚀" />
         <div className="row">

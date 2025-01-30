@@ -1,17 +1,26 @@
-.hero .btn:hover {
+.hero .btn {
   background-color: rgb(246, 199, 34); /* Change to your desired hover color */
   border-color: rgb(246, 199, 34);
+  color: #fff;
+  font-weight: bold;
   transition: all 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #fff; /* Change to your desired hover color */
+  color: rgb(246, 199, 34);
 }
 
 .hero {
   background-color: #1f2a44 !important;
   color: #fff;
-  padding: 250px 0 150px 0 !important;
 }
-@media (max-width: 768px) {
-  .hero {
-    padding: 150px 0 100px 0 !important;
+
+@media (max-width: 992px) {
+  .hero-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 }
 

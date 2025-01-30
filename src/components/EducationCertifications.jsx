@@ -35,9 +35,9 @@ const certifications = [
 
 const EducationCertifications = () => {
   return (
-    <section id="education-certifications" className="py-5">
+    <section id="education-certifications" className="container-dim">
       <div className="container">
-        <div className="row">
+        <div className="row g-4">
           {/* Education Section - Left Side */}
           <motion.div
             className="col-12 col-md-6"

@@ -8,8 +8,8 @@ const skills = {
     "Programming & Automation": [
       "Apex Triggers",
       "Apex Classes",
-      "Apex Test Classes",
       "Batch Apex",
+      "Apex Test Classes",
     ],
     "Flows & Processes": ["Screen Flows", "Triggered Flows", "Process Builder"],
     "UI Development": ["Visualforce", "Aura Components", "LWC Components"],
@@ -31,7 +31,7 @@ const skills = {
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-5 px-4">
+    <section id="skills" className="container-dim ">
       <div className="container">
         <Header title="Skills" icon="🛠️" />
         <div className="row">

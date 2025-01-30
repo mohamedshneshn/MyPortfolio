@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const About = () => {
   return (
-    <section id="about" className="about-section py-5 px-4 bg-light">
+    <section id="about" className="about-section container-dim bg-light">
       <div className="container ">
         <Header title="About Me" icon="🙋" />
         <div className="about-content">

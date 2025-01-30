@@ -2,15 +2,19 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.hero {
-  background-color: #007bff;
-  color: white;
-}
-
 .card {
   transition: transform 0.3s;
 }
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.container-dim {
+  padding: 100px 10px !important;
+}
+@media (max-width: 768px) {
+  .container-dim {
+    padding: 40px 15px !important;
+  }
 }
